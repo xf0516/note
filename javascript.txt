@@ -1,0 +1,49 @@
+typeof 获取数据类型
+push() 在数组最后添加数据
+pop() 在数组最后取出数据
+shift()在数组最前取出数据
+var a=new Array();//定义数组
+var b=["aa","bb"] //定义数组
+
+ 触摸事件touchstart
+
+
+validity接口
+//初始化
+$("input:eq(0)")[0].setCustomValidity("请输入ta的名字");
+设置错误提示
+
+function requeid(i,tip){
+	   if(i.validity.valueMissing===true){
+	     i.setCustomValidity(tip);       
+	}else{
+	    i.setCustomValidity("");
+	}
+}
+
+// 处理超出高度打省略号
+while (target.outerHeight() > divH){
+str=str.replace(/(\s)*([a-zA-Z0-9]+|\W)(\.\.\.)?$/, "...")
+}
+
+jquery$()超高度截取插件
+$.fn.multi_line_overflow = function () {
+            var target = this;
+            var divH = 81;
+            var cnt = 1;
+            target.text($.trim(target.text()));
+            while (target.outerHeight() > divH) {
+                cnt++;
+                target.text(target.text().replace(/(\s)*([^\s]{5})(\.\.\.)?$/, ""));
+                if(cnt > 10){
+                    break;
+                }
+            }
+            if(cnt > 1){
+                target.text(target.text().replace(/(\s)*([^\s]{1,2})(\.\.\.)?$/, "..."));
+            }
+            return this;
+        }
+$("dl dt a").each(function(index,dom){
+      $(dom).multi_line_overflow()
+})

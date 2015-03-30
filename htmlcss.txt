@@ -1,0 +1,32 @@
+window.document.body.offsetWidth   //当前屏幕显示内容的宽度，在onload后执行有效
+手机QQ内置浏览器默认宽度360px
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />  
+
+当父元素 position ：relative  时 ，子元素absolute会以父元素为起点定位
+
+去掉A标签点击阴影
+-webkit-tap-highlight-color: rgba(255, 255, 255, 0); */
+-webkit-focus-ring-color: rgba(0, 0, 0, 0);
+
+
+文件上传样式
+	<div
+		style="width: 69px; height: 69px; overflow: hidden; border-style: dotted;border-color:gray; border-radius: 10px">
+		<input type="file" style="width: 69px; height: 69px; left: 69px; padding-left: 69px;">
+        <div style="width: 34px;height: 4px;background-color: gray;position: relative;top: -36px;left: 18px"></div>
+	    <div style="width: 4px;height: 34px;background-color: gray;position: relative;top: -55px;left: 32px"></div>
+	</div>
+
+http://swift.51mrp.com/home/getHomePage?bid=1000000
+
+
+适配方案1. 媒体查询。less import  
+2. js改变html font-size:     页面用rem
+
+字体图标网（svg转ttf）
+icomoon.io
+ttf转格式
+http://www.fontsquirrel.com/fontface/generator
+
+图片轮播插件
+http://www.superslide2.com/TouchSlide/param.html
