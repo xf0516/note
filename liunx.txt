@@ -1,0 +1,18 @@
+查看tomcat状态
+ps -ef | grep tomcat  
+
+关闭tomcat
+kill -9 ID
+查看日志
+1、先切换到：cd tomcat/logs
+
+2、tail -f catalina.out
+
+ctrl+c 退出
+
+./startup.sh开始
+
+ps -aux | grep java
+
+查看当前用户whoami
+查看端口 netstat -apn
