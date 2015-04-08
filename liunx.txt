@@ -16,3 +16,4 @@ ps -aux | grep java
 
 查看当前用户whoami
 查看端口 netstat -apn
+查看端口 netstat -ntpl  
