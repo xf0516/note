@@ -17,3 +17,8 @@ ps -aux | grep java
 查看当前用户whoami
 查看端口 netstat -apn
 查看端口 netstat -ntpl  
+
+查看进程目录
+ 1. ps aux | grep p_name  (查看进程号PID)
+ 2. cd /proc/PID/ (进入进程对应的proc目录)
+ 3. ls -l exe  (显示完整路径)
