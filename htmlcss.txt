@@ -30,3 +30,11 @@ http://www.fontsquirrel.com/fontface/generator
 
 Í¼Æ¬ÂÖ²¥²å¼ş
 http://www.superslide2.com/TouchSlide/param.html
+
+
+³¬³öÒş²ØÊ¡ÂÔºÅ
+p{
+   white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

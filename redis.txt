@@ -1,0 +1,25 @@
+String
+SET key "value"  
+GET key
+MSET date "2012.3.30" time "11:00 a.m." weather "sunny"
+MGET date time weather
+
+Hash
+HSET website google "www.g.cn"
+HGET website google 
+HMSET website google www.google.com yahoo www.yahoo.com
+HKEYS  HVALS
+
+List
+LPUSH  mylist a b c      push abc
+LRANGE mylist 0 -1       0 -1所有
+
+Set 
+sadd bbs discuz.com maopu.com
+SINTER 交集    SDIFF 差集
+SMEMBERS  //查看集合所有内容
+SMOVE songs my_songs "Believe Me"
+
+SortedSet
+ZADD salary 9 baidu.com 8 bing.com
+ZRANGE salary 0 -1 WITHSCORES     按 score 值递增(从小到大)来排序。
