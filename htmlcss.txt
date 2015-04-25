@@ -38,3 +38,7 @@ p{
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
+input光标解决
+设置较小的height，有padding去填充
+http://www.jb51.net/css/143472.html
