@@ -8,6 +8,8 @@ window.document.body.offsetWidth   //当前屏幕显示内容的宽度，在onload后执行有效
 -webkit-tap-highlight-color: rgba(255, 255, 255, 0); */
 -webkit-focus-ring-color: rgba(0, 0, 0, 0);
 
+跨域
+response.setHeader("Access-Control-Allow-Origin", "*");
 
 文件上传样式
 	<div
@@ -42,3 +44,6 @@ p{
 input光标解决
 设置较小的height，有padding去填充
 http://www.jb51.net/css/143472.html
+
+单页面ajax切换框架
+http://www.zhangxinxu.com/wordpress/2014/10/mobilebone-js-mobile-web-app-core/

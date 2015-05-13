@@ -47,3 +47,6 @@ $.fn.multi_line_overflow = function () {
 $("dl dt a").each(function(index,dom){
       $(dom).multi_line_overflow()
 })
+
+文件上传预览插件
+http://fex.baidu.com/webuploader/doc/index.html
