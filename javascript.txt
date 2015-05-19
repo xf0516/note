@@ -50,3 +50,6 @@ $("dl dt a").each(function(index,dom){
 
 文件上传预览插件
 http://fex.baidu.com/webuploader/doc/index.html
+
+图片轮播插件
+http://www.swiper.com.cn/
