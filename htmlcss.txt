@@ -1,17 +1,17 @@
-window.document.body.offsetWidth   //µ±Ç°ÆÁÄ»ÏÔÊ¾ÄÚÈİµÄ¿í¶È£¬ÔÚonloadºóÖ´ĞĞÓĞĞ§
-ÊÖ»úQQÄÚÖÃä¯ÀÀÆ÷Ä¬ÈÏ¿í¶È360px
+window.document.body.offsetWidth   //å½“å‰å±å¹•æ˜¾ç¤ºå†…å®¹çš„å®½åº¦ï¼Œåœ¨onloadåæ‰§è¡Œæœ‰æ•ˆ
+æ‰‹æœºQQå†…ç½®æµè§ˆå™¨é»˜è®¤å®½åº¦360px
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />  
 
-µ±¸¸ÔªËØ position £ºrelative  Ê± £¬×ÓÔªËØabsolute»áÒÔ¸¸ÔªËØÎªÆğµã¶¨Î»
+å½“çˆ¶å…ƒç´  position ï¼šrelative  æ—¶ ï¼Œå­å…ƒç´ absoluteä¼šä»¥çˆ¶å…ƒç´ ä¸ºèµ·ç‚¹å®šä½
 
-È¥µôA±êÇ©µã»÷ÒõÓ°
+å»æ‰Aæ ‡ç­¾ç‚¹å‡»é˜´å½±
 -webkit-tap-highlight-color: rgba(255, 255, 255, 0); */
 -webkit-focus-ring-color: rgba(0, 0, 0, 0);
 
-¿çÓò
+è·¨åŸŸ
 response.setHeader("Access-Control-Allow-Origin", "*");
 
-ÎÄ¼şÉÏ´«ÑùÊ½
+æ–‡ä»¶ä¸Šä¼ æ ·å¼
 	<div
 		style="width: 69px; height: 69px; overflow: hidden; border-style: dotted;border-color:gray; border-radius: 10px">
 		<input type="file" style="width: 69px; height: 69px; left: 69px; padding-left: 69px;">
@@ -22,28 +22,42 @@ response.setHeader("Access-Control-Allow-Origin", "*");
 http://swift.51mrp.com/home/getHomePage?bid=1000000
 
 
-ÊÊÅä·½°¸1. Ã½Ìå²éÑ¯¡£less import  
-2. js¸Ä±ähtml font-size:     Ò³ÃæÓÃrem
+é€‚é…æ–¹æ¡ˆ1. åª’ä½“æŸ¥è¯¢ã€‚less import  
+2. jsæ”¹å˜html font-size:     é¡µé¢ç”¨rem
 
-×ÖÌåÍ¼±êÍø£¨svg×ªttf£©
+å­—ä½“å›¾æ ‡ç½‘ï¼ˆsvgè½¬ttfï¼‰
 icomoon.io
-ttf×ª¸ñÊ½
+ttfè½¬æ ¼å¼
 http://www.fontsquirrel.com/fontface/generator
 
-Í¼Æ¬ÂÖ²¥²å¼ş
+å›¾ç‰‡è½®æ’­æ’ä»¶
 http://www.superslide2.com/TouchSlide/param.html
 
 
-³¬³öÒş²ØÊ¡ÂÔºÅ
+è¶…å‡ºéšè—çœç•¥å·
 p{
    white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 
-input¹â±ê½â¾ö
-ÉèÖÃ½ÏĞ¡µÄheight£¬ÓĞpaddingÈ¥Ìî³ä
+inputå…‰æ ‡è§£å†³
+è®¾ç½®è¾ƒå°çš„heightï¼Œæœ‰paddingå»å¡«å……
 http://www.jb51.net/css/143472.html
 
-µ¥Ò³ÃæajaxÇĞ»»¿ò¼Ü
+å•é¡µé¢ajaxåˆ‡æ¢æ¡†æ¶
 http://www.zhangxinxu.com/wordpress/2014/10/mobilebone-js-mobile-web-app-core/
+
+#text{
+ -webkit-animation: fadeInLeft 2s;
+}
+
+@-webkit-keyframes fadeInLeft /* Safari å’Œ Chrome */
+{
+from {opacity: 0; 
+-webkit-transform:translateX(20px);
+}
+to {opacity: 1; 
+-webkit-transform: translateX(0px);
+}
+}
