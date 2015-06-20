@@ -50,6 +50,7 @@ http://www.zhangxinxu.com/wordpress/2014/10/mobilebone-js-mobile-web-app-core/
 
 #text{
  -webkit-animation: fadeInLeft 2s;
+   animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes fadeInLeft /* Safari 和 Chrome */
