@@ -1,0 +1,31 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style type="text/css">
+	.text{
+	 -webkit-animation: fadeInLeft 3s;
+	 -webkit-animation-fill-mode:forwards;
+	 text-align: center;
+	 margin: 100px auto;
+	}
+	body{
+		text-align: center;
+	}
+
+	@-webkit-keyframes fadeInLeft /* Safari 和 Chrome */
+	{
+	from {
+	-webkit-transform:rotate(0deg) scale(1,1);
+	}
+	to { 
+	-webkit-transform:rotate(360deg) scale(2,2);
+	}
+	}
+		</style>
+	</head>
+	<body>
+		<img width="100" heigth="100" src="qq.jpg" class="text"/>
+	</body>
+	</html>
