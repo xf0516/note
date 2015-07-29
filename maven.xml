@@ -1,0 +1,36 @@
+<profiles>
+     <profile>
+         <id>jdk-1.6</id>
+            <activation>
+                      <activeByDefault>true</activeByDefault>
+                     <jdk>1.6</jdk>
+              </activation>
+             <properties>
+                      <maven.compiler.source>1.6</maven.compiler.source>
+                  <maven.compiler.target>1.6</maven.compiler.target>
+                  <maven.compiler.compilerVersion>1.6</maven.compiler.compilerVersion>
+                </properties>
+     </profile>
+</profiles>
+
+
+<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.3</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <transformers>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>mopot.util.App</mainClass>
+                                </transformer>
+                            </transformers>
+                        </configuration>
+                    </execution>
+                </executions>
+			</plugin>
