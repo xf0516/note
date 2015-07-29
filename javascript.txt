@@ -1,17 +1,17 @@
-typeof »ñÈ¡Êı¾İÀàĞÍ
-push() ÔÚÊı×é×îºóÌí¼ÓÊı¾İ
-pop() ÔÚÊı×é×îºóÈ¡³öÊı¾İ
-shift()ÔÚÊı×é×îÇ°È¡³öÊı¾İ
-var a=new Array();//¶¨ÒåÊı×é
-var b=["aa","bb"] //¶¨ÒåÊı×é
+typeof è·å–æ•°æ®ç±»å‹
+push() åœ¨æ•°ç»„æœ€åæ·»åŠ æ•°æ®
+pop() åœ¨æ•°ç»„æœ€åå–å‡ºæ•°æ®
+shift()åœ¨æ•°ç»„æœ€å‰å–å‡ºæ•°æ®
+var a=new Array();//å®šä¹‰æ•°ç»„
+var b=["aa","bb"] //å®šä¹‰æ•°ç»„
 
- ´¥ÃşÊÂ¼ştouchstart
+ è§¦æ‘¸äº‹ä»¶touchstart
 
 
-validity½Ó¿Ú
-//³õÊ¼»¯
-$("input:eq(0)")[0].setCustomValidity("ÇëÊäÈëtaµÄÃû×Ö");
-ÉèÖÃ´íÎóÌáÊ¾
+validityæ¥å£
+//åˆå§‹åŒ–
+$("input:eq(0)")[0].setCustomValidity("è¯·è¾“å…¥taçš„åå­—");
+è®¾ç½®é”™è¯¯æç¤º
 
 function requeid(i,tip){
 	   if(i.validity.valueMissing===true){
@@ -21,12 +21,12 @@ function requeid(i,tip){
 	}
 }
 
-// ´¦Àí³¬³ö¸ß¶È´òÊ¡ÂÔºÅ
+// å¤„ç†è¶…å‡ºé«˜åº¦æ‰“çœç•¥å·
 while (target.outerHeight() > divH){
 str=str.replace(/(\s)*([a-zA-Z0-9]+|\W)(\.\.\.)?$/, "...")
 }
 
-jquery$()³¬¸ß¶È½ØÈ¡²å¼ş
+jquery$()è¶…é«˜åº¦æˆªå–æ’ä»¶
 $.fn.multi_line_overflow = function () {
             var target = this;
             var divH = 81;
@@ -48,8 +48,16 @@ $("dl dt a").each(function(index,dom){
       $(dom).multi_line_overflow()
 })
 
-ÎÄ¼şÉÏ´«Ô¤ÀÀ²å¼ş
+æ–‡ä»¶ä¸Šä¼ é¢„è§ˆæ’ä»¶
 http://fex.baidu.com/webuploader/doc/index.html
 
-Í¼Æ¬ÂÖ²¥²å¼ş
+å›¾ç‰‡è½®æ’­æ’ä»¶
 http://www.swiper.com.cn/
+
+
+æ»‘è½®æ»šåŠ¨fullpage.js
+http://www.dowebok.com/77.html
+
+
+vorlon.js
+è¿œç¨‹è°ƒè¯•
