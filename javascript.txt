@@ -58,6 +58,10 @@ http://www.swiper.com.cn/
 滑轮滚动fullpage.js
 http://www.dowebok.com/77.html
 
+js分页
+Pagination 
+
+
 
 vorlon.js
 远程调试
