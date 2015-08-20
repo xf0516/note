@@ -1,0 +1,12 @@
+ng-app
+ng-controller          function controller($scope)
+ng-model     $scope.
+ng-click      $scope.remove=function()       ng-click="count=3"
+ng-show       true
+ng-repeat        shutdent in shutdents
+ng-src  ng-href
+ng-class   '{error:isError}'     .error{color:red}    '{selected: $index==selectedRow}'
+ng-include 
+ ng-disabled   ng-disabled="true"禁用   ng-disabled="error || incomplete"
+{{recompute()}}
+ 
