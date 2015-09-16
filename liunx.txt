@@ -1,24 +1,28 @@
-²é¿´tomcat×´Ì¬
+
+ tcpdump -X -s 1024 host 172.16.20.44 and port 7000
+ -w ./my.cap
+ 
+æŸ¥çœ‹tomcatçŠ¶æ€
 ps -ef | grep tomcat  
 
-¹Ø±Õtomcat
+å…³é—­tomcat
 kill -9 ID
-²é¿´ÈÕÖ¾
-1¡¢ÏÈÇĞ»»µ½£ºcd tomcat/logs
+æŸ¥çœ‹æ—¥å¿—
+1ã€å…ˆåˆ‡æ¢åˆ°ï¼šcd tomcat/logs
 
-2¡¢tail -f catalina.out
+2ã€tail -f catalina.out
 
-ctrl+c ÍË³ö
+ctrl+c é€€å‡º
 
-./startup.sh¿ªÊ¼
+./startup.shå¼€å§‹
 
 ps -aux | grep java
 
-²é¿´µ±Ç°ÓÃ»§whoami
-²é¿´¶Ë¿Ú netstat -apn
-²é¿´¶Ë¿Ú netstat -ntpl  
+æŸ¥çœ‹å½“å‰ç”¨æˆ·whoami
+æŸ¥çœ‹ç«¯å£ netstat -apn
+æŸ¥çœ‹ç«¯å£ netstat -ntpl  
 
-²é¿´½ø³ÌÄ¿Â¼
- 1. ps aux | grep p_name  (²é¿´½ø³ÌºÅPID)
- 2. cd /proc/PID/ (½øÈë½ø³Ì¶ÔÓ¦µÄprocÄ¿Â¼)
- 3. ls -l exe  (ÏÔÊ¾ÍêÕûÂ·¾¶)
+æŸ¥çœ‹è¿›ç¨‹ç›®å½•
+ 1. ps aux | grep p_name  (æŸ¥çœ‹è¿›ç¨‹å·PID)
+ 2. cd /proc/PID/ (è¿›å…¥è¿›ç¨‹å¯¹åº”çš„procç›®å½•)
+ 3. ls -l exe  (æ˜¾ç¤ºå®Œæ•´è·¯å¾„)
