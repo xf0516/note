@@ -2,6 +2,10 @@
  tcpdump -X -s 1024 host 172.16.20.44 and port 7000
  -w ./my.cap
  
+ 
+ export JAVA_OPTS="-Dcom.sun.management.jmxremote.port=8991 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.name=xiafei -server -Xms1400M -Xmx1400M  -XX:PermSize=50m -XX:MaxPermSize=70m"
+ 
+ 
 查看tomcat状态
 ps -ef | grep tomcat  
 
