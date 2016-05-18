@@ -3,6 +3,20 @@
  -w ./my.cap
  
  
+ #!/bin/bash
+echo $1
+if [ $1 ] 
+then
+echo "look host $1"
+sudo tcpdump -A port 22080 and greater 76 and host $1
+else
+echo "no host"
+sudo tcpdump -A port 22080 and greater 76
+fi 
+
+
+
+ 
  export JAVA_OPTS="-Dcom.sun.management.jmxremote.port=8991 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.name=xiafei -server -Xms1400M -Xmx1400M  -XX:PermSize=50m -XX:MaxPermSize=70m"
  
  
