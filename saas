@@ -1,0 +1,132 @@
+select * from bak_sh_function ;  无用表 
+ 
+select * from sh_click_track ;  暂时没有地方用到
+
+
+#车辆检查记录表
+
+SELECT * FROM sh_detection_item_record;
+
+SELECT * FROM sh_detection_record;
+
+SELECT * FROM sh_detection_item;
+
+#门店订单  -- 门店叫工单 
+
+select * from sh_work ;
+
+select  * from sh_order; 
+
+select * from sh_order_goods_record;
+
+select * from sh_order_goods_sku_record;
+
+select * from sh_order_item;
+
+select * from sh_order_server;
+
+select * from sh_order_worker;
+
+#订单线上支付记录
+
+select * from sh_card_online_pay_record;
+
+#门店出库表
+
+select * from sh_out_storage;
+
+select * from sh_out_storage_total;
+
+#门店入库表
+
+select * from sh_in_storage;
+
+select * from sh_in_storage_detail;
+
+
+#门店套餐
+select * from sh_package;
+
+select * from sh_package_item;
+
+select * from sh_package_server;
+
+#字典表
+select * from sh_param;
+select * from sh_store_config;  门店配置表 
+
+
+#门店角色权限表
+
+select * from sh_employee;   员工表（未和用户中心即时同步之前是没用的）
+
+select * from sh_role;
+
+select * from sh_role_function;
+
+
+# 用于工单等编号门店内自增
+select * from sh_serial_number; 
+
+
+#用户相关表
+select * from sh_user_info;
+
+select *  from sh_user_car;  车辆表 
+
+select *  from sh_user_car_relation;  
+
+select * from sh_user_message; 
+
+select * from sh_user_role;
+
+select * from sh_user_tag; 
+
+select * from sh_store_car; 门店和车辆关系表
+
+select * from sh_store_user; 门店和用户关系表
+
+
+#会员卡和计次卡
+select * from sh_user_times_card;
+
+select * from sh_user_times_card_server;
+
+select * from sh_user_vip_card;
+
+#select * from sh_valve;
+
+select * from sh_vip_card_bill;
+
+select * from sh_vip_card;
+
+
+
+#门店预约
+select * from  sh_work_appointment;
+
+#门店供应商
+select * from sh_supplier;
+
+
+#sh_stock 门店的商品&库存相关的表
+
+select * from sh_sku; 
+
+select * from sh_server;
+
+select * from sh_category;
+
+select * from sh_item;
+
+select * from sh_item_price;
+
+select * from sh_inventory;  盘点表 
+
+select * from sh_inventory_item;
+
+select * from sh_stock;  库存表 
+
+select * from sh_stock_log;
+
+select * from sh_stock_total;
