@@ -70,4 +70,12 @@ ps -aux | grep java
  前提本机ssh能访问host3  监听本地9001端口。将数据转发至host2 22端口
  
  
+host3上执行 
+ ssh -R 2121:host2:21 host1
+ host3将监听host1 2121端口的数据。将数据转发给host2 21端口
+ 因此，host1只需要访问  telnet localhost:21就相当于访问 host2 21端口
+ 此方法用于host1不能访问host3 但是host3能访问1的情况
+
+ 
+ 
  
