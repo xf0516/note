@@ -64,3 +64,10 @@ ps -aux | grep java
  1. ps aux | grep p_name  (查看进程号PID)
  2. cd /proc/PID/ (进入进程对应的proc目录)
  3. ls -l exe  (显示完整路径)
+
+ 本机执行
+　ssh -L 9001:host2:22 host3
+ 前提本机ssh能访问host3  监听本地9001端口。将数据转发至host2 22端口
+ 
+ 
+ 
