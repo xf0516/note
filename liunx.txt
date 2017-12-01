@@ -1,4 +1,8 @@
+统计请求次数
+grep 'request for' sh-spring.log |awk '{print $15}'|sort|uniq -c|sort -r
 
+ 
+ 
  tcpdump -X -s 1024 host 172.16.20.44 and port 7000
  -w ./my.cap
  
